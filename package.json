@@ -1,0 +1,25 @@
+{
+  "name": "css-filter-loader",
+  "version": "0.0.2",
+  "description": "Optimize the CSS filter but without compression",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfjBill/css-filter-loader.git"
+  },
+  "keywords": [
+    "css-filter-loader"
+  ],
+  "author": "nfjBill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nfjBill/css-filter-loader/issues"
+  },
+  "homepage": "https://github.com/nfjBill/css-filter-loader#readme",
+  "dependencies": {
+    "postcss-arrange": "0.0.2"
+  }
+}
