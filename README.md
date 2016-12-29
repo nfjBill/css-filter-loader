@@ -45,6 +45,7 @@ mobile.rem = function (opt) {
 
     let pe = elem.stan_percent / elem.stan_width;
 
+    //The window size changes, you can write a method instead of the other, for example: onresize
     dom.winResize(function () {
         let now = ($(window).width() - elem.stan_width) * pe + elem.stan_percent;
 
