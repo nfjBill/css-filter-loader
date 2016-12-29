@@ -1,6 +1,6 @@
 {
   "name": "css-filter-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Optimize the CSS filter but without compression",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/nfjBill/css-filter-loader#readme",
   "dependencies": {
-    "postcss-arrange": "0.0.2"
+    "postcss-arrange": "0.0.2",
+    "loader-utils": "^0.2.16",
+    "lodash": "^4.17.3"
   }
 }
